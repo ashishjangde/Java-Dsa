@@ -153,23 +153,31 @@ boolean isValid = true;  // Stored directly in stack
 #### Heap Memory
 ```mermaid
 graph LR
-    A[Stack] --> |Reference| B[Heap]
-    B --> C[String name = "John"]
-    B --> D[Student s = new Student()]
+   A[Stack Memory] --> |name| B[Heap Memory]
+   A --> |student| B
+
+   subgraph Heap
+      B --> C["String Pool<br>'John'"]
+      B --> D["Student Object<br>{name, age, ...}"]
+   end
+
 ```
 
 ### Variable Memory Visualization
 ```mermaid
-graph TD
-    A[Stack Memory]
-    B[int x = 10]
-    C[String str = "Hello"]
-    D[Heap Memory]
-    
-    A --> B
-    A --> |Reference| C
-    C --> D
-    D --> E["Hello"]
+graph LR
+   subgraph Stack
+      A[Stack Memory]
+      B["int x = 10<br>(Direct Value)"]
+      C["String str<br>(Reference)"]
+   end
+
+   subgraph Heap
+      D["String Pool<br>'Hello'"]
+   end
+
+   A --> B
+   C --> D
 ```
 
 ## Best Practices
