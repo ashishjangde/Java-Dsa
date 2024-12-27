@@ -12,16 +12,6 @@ This is my personal Java DSA challenge where I will practice data structures and
 
 ---
 
-## Weekly Tracker
-
-_| Week | Day | Date       | Topic Covered            | Exercise/Challenge                                      | Notes/Reflection                                           |
-|------|-----|------------|--------------------------|---------------------------------------------------------|------------------------------------------------------------|
-| 1    | 1   | 25/12/2024 | Variables and Data Types | [Link to Java Folder](./01Variables-And-Data-Types/src) | [Link to Notes](./01Variables-And-Data-Types/src/Notes.md) |
-| 1    | 2   | 26/12/2024 | Operators                | [Link to Java Folder](./02Operators/src)                | [Link to Notes](./02Operators/src/Notes.md)                |
-| 1    | 3   | 26/12/2024 | Conditional Statement    | [Link to Java Folder](./03ConditionalStatement/src)     | [Link to Notes](./03ConditionalStatement/src/Notes.md)     |
-| 1    | 4   | 27/12/2024 | Loops and Flow Control   | [Link to Java Folder](./04LoopsAndFlowControl/src)      | [Link to Notes](./04LoopsAndFlowControl/src/Notes.md)      |
-
----
 
 ## Weekly Progress Log
 
@@ -31,8 +21,8 @@ _| Week | Day | Date       | Topic Covered            | Exercise/Challenge      
 |------|-----|------------|--------------------------|---------------------------------------------------------|------------------------------------------------------------|
 | 1    | 1   | 25/12/2024 | Variables and Data Types | [Link to Java Folder](./01Variables-And-Data-Types/src) | [Link to Notes](./01Variables-And-Data-Types/src/Notes.md) |
 | 1    | 2   | 26/12/2024 | Operators                | [Link to Java Folder](./02Operators/src)                | [Link to Notes](./02Operators/src/Notes.md)                |
-| 1    | 3   | 26/12/2024 | Conditional Statement    | [Link to Java Folder](./03ConditionalStatement/src)     | [Link to Notes](./03ConditionalStatement/src/Notes.md)     |                                                           |
-| 1    | 4   | 27/12/2024 | Loops and Flow Control   | [Link to Java Folder](./04LoopsAndFlowControl/src)      | [Link to Notes](./04LoopsAndFlowControl/src/Notes.md)      |
+| 1    | 2   | 26/12/2024 | Conditional Statement    | [Link to Java Folder](./03ConditionalStatement/src)     | [Link to Notes](./03ConditionalStatement/src/Notes.md)     |                                                           |
+| 1    | 3   | 27/12/2024 | Loops and Flow Control   | [Link to Java Folder](./04LoopsAndFlowControl/src)      | [Link to Notes](./04LoopsAndFlowControl/src/Notes.md)      |
 
 ---
 
