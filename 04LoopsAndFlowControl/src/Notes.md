@@ -106,26 +106,17 @@ for (int i = 1; i <= 3; i++) {
 
 ## Mermaid Diagrams
 
-### For Loop
+### Reverse of  the number Loop
+[Code Path](./practice/08ReverseTheGivenNumber.java)
 ```mermaid
 graph TD;
-    A[Start] --> B[Initialization];
-    B --> C[Condition];
-    C -->|True| D[Execute Loop Body];
-    D --> E[Increment/Decrement];
-    E --> C;
-    C -->|False| F[End];
-```
-
-### Reverse Loop
-```mermaid
-graph TD;
-    A[Start] --> B[Initialization];
-    B --> C[Condition];
-    C -->|True| D[Execute Loop Body];
-    D --> E[Decrement];
-    E --> C;
-    C -->|False| F[End];
+    A[Start] --> B[Initialize reversedNumber to 0];
+    B --> C[Get last digit of number];
+    C --> D[Add last digit to reversedNumber];
+    D --> E[Remove last digit from number];
+    E --> F[Check if number is 0];
+    F -->|No| C;
+    F -->|Yes| G[End];
 ```
 
 ### Matrix Pattern
