@@ -23,6 +23,7 @@ This is my personal Java DSA challenge where I will practice data structures and
 | 1    | 2   | 26/12/2024 | Operators                | [Link to Java Folder](./02Operators/src)                | [Link to Notes](./02Operators/src/Notes.md)                |
 | 1    | 2   | 26/12/2024 | Conditional Statement    | [Link to Java Folder](./03ConditionalStatement/src)     | [Link to Notes](./03ConditionalStatement/src/Notes.md)     |                                                           |
 | 1    | 3   | 27/12/2024 | Loops and Flow Control   | [Link to Java Folder](./04LoopsAndFlowControl/src)      | [Link to Notes](./04LoopsAndFlowControl/src/Notes.md)      |
+| 1    | 3   | 28/12/2024 | Patterns (logic Building)   | [Link to Java Folder](./05Patterns/src)              | [Link to Notes](./05Patterns/src/Notes.md)                  |
 
 ---
 
@@ -52,7 +53,16 @@ This is my personal Java DSA challenge where I will practice data structures and
 
 - **Challenges**: I didn’t face any challenges while working with loops and flow control.
 - **Reflection**: Understanding loops and flow control has enhanced my ability to manage repetitive tasks and control the execution flow in my programs. I feel more confident in writing efficient and effective loops.
-- **Time Spent**: 2 hours
+- **Time Spent**: 1 hours 15 min
+
+
+### Day 4: 28/12/2024
+
+**Topic Covered**: Patterns
+
+- **Challenges**: I didn’t face any challenges while working with Patterns.
+- **Reflection**: Practicing pattern problems has improved my logical thinking and problem-solving skills. I feel more confident in using loops to create various patterns and understand the importance of nested loops in complex scenarios.
+- **Time Spent**: 1 hour
 
 ---
 
@@ -82,6 +92,12 @@ This is my personal Java DSA challenge where I will practice data structures and
 - While Loop
 - Do-While Loop
 - Break and Continue Statements
+
+### 5. Patterns
+- Print Star Pattern
+- Inverted Star pattern
+- Print Half Pyramid
+- Print Char Pattern
 
 ---
 
