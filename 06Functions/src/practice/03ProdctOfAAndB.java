@@ -1,3 +1,5 @@
+package practice;
+
 class ProdctOfAAndB {
 
     // Method to calculate the product of two integers

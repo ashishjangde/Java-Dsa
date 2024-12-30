@@ -1,3 +1,5 @@
+package practice;
+
 class FindFactorial {
 
     public static int factorial (int n ){

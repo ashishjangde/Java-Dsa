@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/03ConditionalStatement/03ConditionalStatement.iml" filepath="$PROJECT_DIR$/03ConditionalStatement/03ConditionalStatement.iml" />
       <module fileurl="file://$PROJECT_DIR$/04LoopsAndFlowControl/04LoopsAndFlowControl.iml" filepath="$PROJECT_DIR$/04LoopsAndFlowControl/04LoopsAndFlowControl.iml" />
       <module fileurl="file://$PROJECT_DIR$/05Patterns/05Patterns.iml" filepath="$PROJECT_DIR$/05Patterns/05Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06Functions/06Functions.iml" filepath="$PROJECT_DIR$/06Functions/06Functions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07PatternsAdvanced/07PatternsAdvanced.iml" filepath="$PROJECT_DIR$/07PatternsAdvanced/07PatternsAdvanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Dsa.iml" filepath="$PROJECT_DIR$/Java-Dsa.iml" />
       <module fileurl="file://$PROJECT_DIR$/01Variables-And-Data-Types/Variables-And-Data-Types.iml" filepath="$PROJECT_DIR$/01Variables-And-Data-Types/Variables-And-Data-Types.iml" />
     </modules>

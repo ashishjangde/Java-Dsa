@@ -1,4 +1,6 @@
- class IsPrimeOptimized {
+package practice;
+
+class IsPrimeOptimized {
 
     public static boolean isPrime(int n) {
         if (n <= 1) {

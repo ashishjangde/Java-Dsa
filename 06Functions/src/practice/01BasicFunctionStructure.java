@@ -1,3 +1,5 @@
+package practice;
+
 class BasicFunctionStructure {
 
     public static int sum (int a, int b) { // public is access modifier, static is keyword, int is return type, sum is function name, int a, int b are parameters

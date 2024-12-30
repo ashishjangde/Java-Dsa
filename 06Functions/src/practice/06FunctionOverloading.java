@@ -1,3 +1,5 @@
+package practice;
+
 class FunctionOverloading {
     // Method to add two integers
     public static int add(int a, int b) {

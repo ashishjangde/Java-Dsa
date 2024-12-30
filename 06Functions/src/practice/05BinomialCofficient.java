@@ -1,3 +1,5 @@
+package practice;
+
 class BinomialCofficient {
 
     public static int factorial (int n ){

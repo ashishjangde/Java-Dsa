@@ -1,3 +1,5 @@
+package practice;
+
 class CallByValue {
 
     // This method attempts to swap the values of a and b

@@ -1,3 +1,5 @@
+package practice;
+
 class PrimeNumberInRange {
 
     public static void primeInRange(int n) {

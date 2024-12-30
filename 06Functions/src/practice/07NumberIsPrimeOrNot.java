@@ -1,4 +1,6 @@
- class NumberIsPrimeOrNot {
+package practice;
+
+class NumberIsPrimeOrNot {
 
     public static boolean isPrime ( int n){
         if (n <= 1) {
