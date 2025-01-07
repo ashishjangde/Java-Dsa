@@ -6,7 +6,8 @@ class DiagonalSum {
         int cols = arr[0].length;
         int minDim = Math.min(rows, cols);
 
-        int primary = 0, secondary = 0;
+        int primary = 0;
+        int secondary = 0;
 
         for(int i = 0; i < minDim; i++) {
             primary += arr[i][i];
