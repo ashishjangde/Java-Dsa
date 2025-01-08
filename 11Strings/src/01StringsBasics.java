@@ -4,7 +4,7 @@ class StringsBasics {
     public static void main(String[] args) {
 
         // String created using string literal
-        String ash = "ashish";
+        // String ash = "ashish";
 
         // String created using the 'new' keyword
         String ashish = new String("Ashish");
