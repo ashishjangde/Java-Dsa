@@ -2,62 +2,59 @@ import java.util.Arrays;
 
 public class ConstructorExample {
     public static void main(String[] args) {
-        Pen pen1 = new Pen("Red", 20, "Parker");
+        StudentClass student1 = new StudentClass("John", 101);
 
-        // Initialize marks for pen1
-        pen1.marks[0] = 10;
-        pen1.marks[1] = 20;
-        pen1.marks[2] = 30;
+        // Initialize marks for student1
+        student1.marks[0] = 85;
+        student1.marks[1] = 90;
+        student1.marks[2] = 95;
 
         // Create shallow copy
-        Pen pen2 = new Pen(pen1, false);
+        StudentClass student2 = new StudentClass(student1, false);
 
         // Create deep copy
-        Pen pen3 = new Pen(pen1, true);
+        StudentClass student3 = new StudentClass(student1, true);
 
-        // Modify original array (pen1.marks)
-        pen1.marks[0] = 100;
+        // Modify original array (student1.marks)
+        student1.marks[0] = 100;
 
         // Display shallow copy
         System.out.println("Shallow Copy Demo:");
-        for (int mark : pen2.marks) {
-            System.out.println(mark); // Will show modified values from pen1
+        for (int mark : student2.marks) {
+            System.out.println(mark); // Will show modified values from student1
         }
 
         // Display deep copy
         System.out.println("\nDeep Copy Demo:");
-        for (int mark : pen3.marks) {
-            System.out.println(mark); // Will show original values from pen1 (not modified)
+        for (int mark : student3.marks) {
+            System.out.println(mark); // Will show original values from student1 (not modified)
         }
     }
 }
 
-class Pen {
-    String color;
-    int price;
-    String brand;
+class StudentClass {
+    String name;
+    int rollNumber;
     int[] marks;
 
     // Original constructor
-    public Pen(String color, int price, String brand) {
-        this.color = color;
-        this.price = price;
-        this.brand = brand;
+    public StudentClass(String name, int rollNumber) {
+        this.name = name;
+        this.rollNumber = rollNumber;
         this.marks = new int[3];
     }
 
     // Copy constructor with deep or shallow copy option
-    public Pen(Pen pen, boolean isDeepCopy) {
-        this.color = pen.color;
-        this.price = pen.price;
-        this.brand = pen.brand;
+    public StudentClass(StudentClass student, boolean isDeepCopy) {
+        this.name = student.name;
+        this.rollNumber = student.rollNumber;
 
         if (isDeepCopy) {
             // Deep copy: create a new array and copy elements
-            this.marks = Arrays.copyOf(pen.marks, pen.marks.length);
+            this.marks = Arrays.copyOf(student.marks, student.marks.length);
         } else {
             // Shallow copy: copy the reference to the original array
-            this.marks = pen.marks;
+            this.marks = student.marks;
         }
     }
 }
