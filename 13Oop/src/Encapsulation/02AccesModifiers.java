@@ -1,4 +1,6 @@
- class AccesModifiers {
+package Encapsulation;
+
+class AccesModifiers {
     public static void main(String[] args) {
         
         BankAccount account1 = new BankAccount("John", "1234", 1000);

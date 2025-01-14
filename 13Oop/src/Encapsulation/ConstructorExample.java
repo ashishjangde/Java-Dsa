@@ -1,3 +1,5 @@
+package Encapsulation;
+
 import java.util.Arrays;
 
 public class ConstructorExample {
@@ -37,12 +39,24 @@ class StudentClass {
     int rollNumber;
     int[] marks;
 
-    // Original constructor
+    // Original constructor  + constructor overloading
     public StudentClass(String name, int rollNumber) {
         this.name = name;
         this.rollNumber = rollNumber;
         this.marks = new int[3];
     }
+    public StudentClass(String name, int rollNumber, int[] marks) {
+        this.name = name;
+        this.rollNumber = rollNumber;
+        this.marks = marks;
+    }
+
+    public StudentClass() {
+        this.name = "Unknown";
+        this.rollNumber = 0;
+        this.marks = new int[3];
+    }
+
 
     // Copy constructor with deep or shallow copy option
     public StudentClass(StudentClass student, boolean isDeepCopy) {
